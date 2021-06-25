@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="WindowSystem">
+      <UniqueIdentifier>{6dae7805-b833-4647-9f8f-fc6533ea3b83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AppWindow">
+      <UniqueIdentifier>{00e3d29e-59c8-49f2-b8dc-ca5324b0fe26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{1f59131a-7086-4e13-b4a3-3821aaa49648}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{c3cd34c0-b0c4-4a20-b04d-7e439d264548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Triangle">
+      <UniqueIdentifier>{09e54129-9b7c-4b2c-a594-00620f6fd1a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VertexShader">
+      <UniqueIdentifier>{5ca0b797-315f-4d44-b604-54310c7f108c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FragmentShader">
+      <UniqueIdentifier>{3646f639-b67c-40c5-98a7-4fb9edb4a60a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Rectangle">
+      <UniqueIdentifier>{5f7d09c2-e958-4f12-8720-659fb4e12b09}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="VertexShader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="FragmentShader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>WindowSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="AppWindow.cpp">
+      <Filter>AppWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Objects\Triangle</Filter>
+    </ClCompile>
+    <ClCompile Include="FragmentShader.cpp">
+      <Filter>FragmentShader</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexShader.cpp">
+      <Filter>VertexShader</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle2.cpp">
+      <Filter>Objects\Triangle</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle3.cpp">
+      <Filter>Objects\Triangle</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>Objects\Rectangle</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Window.h">
+      <Filter>WindowSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="AppWindow.h">
+      <Filter>AppWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Objects\Triangle</Filter>
+    </ClInclude>
+    <ClInclude Include="FragmentShader.h">
+      <Filter>FragmentShader</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexShader.h">
+      <Filter>VertexShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle2.h">
+      <Filter>Objects\Triangle</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle3.h">
+      <Filter>Objects\Triangle</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>Objects\Rectangle</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Malabag_Marco_GRAPHIX.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
