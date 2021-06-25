@@ -5,7 +5,6 @@
 
 int main() {
 
-
-	AppWindow app;
+	AppWindow app; // AppWindow extends the Window class. The Window class is responsible for initializing the window 
 	while (app.isRunning());
 }
